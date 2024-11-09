@@ -1,0 +1,9 @@
+package com.khan;
+
+public class DependentClass {
+
+	DependentClass()
+	{
+		System.out.println("DependentClass.DependentClass() ");
+	}
+}

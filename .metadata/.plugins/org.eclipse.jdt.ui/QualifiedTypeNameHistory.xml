@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.khan.Example"/>
+    <fullyQualifiedTypeName name="com.khan.Sample"/>
+    <fullyQualifiedTypeName name="com.khan.DependentClass"/>
+    <fullyQualifiedTypeName name="com.khan.TargetClass"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="com.khan.config.MyAppConfig"/>
+    <fullyQualifiedTypeName name="com.khan.main.Service"/>
+    <fullyQualifiedTypeName name="com.khan.serivce.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.khan.service.Service"/>
+    <fullyQualifiedTypeName name="com.khan.payment.DebitCard"/>
+    <fullyQualifiedTypeName name="com.khan.payment.CreditCard"/>
+    <fullyQualifiedTypeName name="com.khan.payment.IPayment"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="com.khan.config.AppConfig"/>
+    <fullyQualifiedTypeName name="com.khan.service.Restaurent"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+</qualifiedTypeNameHistroy>

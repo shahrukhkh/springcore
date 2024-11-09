@@ -1,0 +1,5 @@
+package com.khan.dto;
+
+public class Book {
+
+}

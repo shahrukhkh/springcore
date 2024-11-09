@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\07-SpringCoreBeanScopeXml\src\main\java\com\khan\beans\MyApp.java"/>
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\05-SpringCorePropertiesDemo"/>
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\04-SpringCoreComponentScanDemo\pom.xml"/>
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\03-SpringCoreAnnotationConfig"/>
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\01-App\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.khan"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="08-SpringCoreJDBCBook"/>
+			<item value="07-SpringCoreBeanScopeXml"/>
+			<item value="06-SpringCoreRestsurentEx"/>
+			<item value="05-SpringCorePropertiesDemo"/>
+			<item value="04-SpringCoreComponentScanDemo"/>
+			<item value="03-SpringCoreAnnotationConfig"/>
+			<item value="02-SpringCoreXmlConfig"/>
+			<item value="01-App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

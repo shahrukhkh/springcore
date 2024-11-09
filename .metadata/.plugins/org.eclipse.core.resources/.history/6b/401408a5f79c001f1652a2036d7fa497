@@ -1,0 +1,8 @@
+package com.khan.config;
+
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan(basePackages = "com.khan")
+public class AppConfig {
+
+}

@@ -1,0 +1,17 @@
+package com.khan.payment;
+
+public class CreditCard implements IPayment{
+	
+	
+	public CreditCard()
+	{
+		System.out.println("CreditCard.CreditCard()");
+	}
+	
+	@Override
+	public int pay() {
+		System.out.println("CreditCard.pay()");
+		return 0;
+	}
+
+}

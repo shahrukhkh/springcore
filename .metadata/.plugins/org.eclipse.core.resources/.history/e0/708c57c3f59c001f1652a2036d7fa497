@@ -1,0 +1,8 @@
+package com.khan.serivce;
+
+import org.springframework.stereotype.Component;
+
+@Component("sobj")
+public class Service {
+
+}

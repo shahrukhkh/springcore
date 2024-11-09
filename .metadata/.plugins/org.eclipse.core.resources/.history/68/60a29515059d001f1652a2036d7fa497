@@ -1,0 +1,19 @@
+package com.khan.service;
+
+import com.khan.payment.IPayment;
+
+public class Restaurent {
+
+	private IPayment ipayment;
+
+	public Restaurent() {
+		System.out.println("Restaurent.Restaurent()");
+
+	}
+
+	public void payBill() {
+		System.out.println("Restaurent.payBill()");
+		ipayment.pay();
+	}
+
+}

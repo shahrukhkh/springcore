@@ -1,0 +1,5 @@
+package com.khan.repo;
+
+public class BookRepoImpl implements IBookRepo{
+
+}

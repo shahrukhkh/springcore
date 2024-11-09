@@ -1,0 +1,14 @@
+package com.khan.service;
+
+import org.springframework.stereotype.Component;
+
+@Component("sobj")
+public class Service {
+
+	
+	private String dbName;
+	private String dbURL;
+	private String username;
+	private String password;
+	private int noOfConnection;
+}
