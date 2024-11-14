@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\10-SpringCoreLifeCycleXMLConfig"/>
+			<item value="C:\Users\khans\workspace\SBMS\byRaghu\08-SpringCoreJDBCBook\src\main\java\com\khan\service\FileLoaderService.java"/>
 			<item value="C:\Users\khans\workspace\SBMS\byRaghu\07-SpringCoreBeanScopeXml\src\main\java\com\khan\beans\MyApp.java"/>
 			<item value="C:\Users\khans\workspace\SBMS\byRaghu\05-SpringCorePropertiesDemo"/>
 			<item value="C:\Users\khans\workspace\SBMS\byRaghu\04-SpringCoreComponentScanDemo\pom.xml"/>
@@ -49,10 +51,16 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.khan"/>
+			<item value="com.manish"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="12-SpringCoreSchedulerEx1"/>
+			<item value="ManishDemo"/>
+			<item value="11-SpringCoreLMI"/>
+			<item value="10-SpringCoreLifeCycleXMLConfig"/>
+			<item value="09-SpringCoreLifeCycle"/>
 			<item value="08-SpringCoreJDBCBook"/>
 			<item value="07-SpringCoreBeanScopeXml"/>
 			<item value="06-SpringCoreRestsurentEx"/>

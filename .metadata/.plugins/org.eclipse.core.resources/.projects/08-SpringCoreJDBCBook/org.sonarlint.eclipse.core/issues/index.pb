@@ -9,3 +9,7 @@ U
 %src/main/java/com/khan/app/MyApp.java,3\6\36128099bd003b71f78f8822031d65ee59c9f29f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+L
+src/main/resources/beans.xml,3\9\391dcc488988192fbd8ef1f6b10cb4923f354042
+T
+$src/main/java/com/khan/dto/Book.java,8\7\873831a1a5d7e7136036805ed7155adfed9049d5
