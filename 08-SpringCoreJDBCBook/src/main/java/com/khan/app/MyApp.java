@@ -10,9 +10,12 @@ public class MyApp {
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext cont= new ClassPathXmlApplicationContext("beans.xml");
 		FileLoaderService bean = cont.getBean(FileLoaderService.class);
+		
 		bean.loadDataFromFile("C:\\Users\\khans\\OneDrive\\Desktop\\books.txt");
 		
-		bean.generateExcelForBooks("C:\\Users\\khans\\OneDrive\\Desktop\\Books2.xlsx");
+		bean.generateExcelForBooks("C:\\Users\\khans\\OneDrive\\Desktop\\Books.xlsx");
+		
+		bean.generatePDF("C:\\Users\\khans\\OneDrive\\Desktop\\Books.pdf");
 		cont.close();
 	}
 }

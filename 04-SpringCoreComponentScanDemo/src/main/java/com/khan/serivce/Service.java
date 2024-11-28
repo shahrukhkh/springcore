@@ -15,4 +15,9 @@ public class Service {
 	{
 		System.out.println("Service.Service()");
 	}
+
+	@Override
+	public String toString() {
+		return "Service [ename=" + ename + ", id=" + id + "]";
+	}
 }

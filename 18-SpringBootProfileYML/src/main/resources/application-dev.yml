@@ -1,0 +1,6 @@
+my:
+  app:
+    db: mysql
+spring:
+  application:
+    name: 17-SpringBootProfileEx1

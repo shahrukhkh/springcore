@@ -1,16 +1,27 @@
 package com.khan.service;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
+
+import javax.swing.GroupLayout.Alignment;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.itextpdf.kernel.colors.DeviceRgb;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.layout.element.Table;
+import com.itextpdf.layout.properties.HorizontalAlignment;
+import com.itextpdf.layout.properties.TextAlignment;
 import com.khan.dto.Book;
 import com.khan.repo.IBookRepo;
 
@@ -70,6 +81,52 @@ public class FileLoaderService {
 			
 		} catch (IOException e) {
 			System.out.println("FAILED TO GENERATE");
+		}
+	}
+	
+	public void generatePDF(String filePath)
+	{
+		List<Book> books = bookRepo.getAllBook();
+
+		try(PdfWriter pdfWriter = new PdfWriter(filePath);
+			PdfDocument pdfDocument = new PdfDocument(pdfWriter);
+			Document document = new Document(pdfDocument);) {
+			
+			//writes the final output to the file(PdfWriter).
+			//Represents the PDF file structure and content(PdfDocument).
+			
+			/* A user-friendly interface to add content 
+				(e.g., paragraphs, tables, etc.) to the PDF (Document).
+			*/
+			
+			
+			document.add(new Paragraph("BOOK LIST")
+							.setBold()
+							.setFontSize(30)
+							.setFontColor(new DeviceRgb(0,102,204))
+							.setTextAlignment(TextAlignment.CENTER)
+							.setMarginBottom(20));
+			
+			Table table = new Table(3);
+			table.addHeaderCell("BookID").setBold().setFontSize(20);
+			table.addHeaderCell("Book Name").setBold().setFontSize(20);
+			table.addHeaderCell("Book Price").setBold().setFontSize(20);
+			
+			for(Book book : books)
+			{
+				table.addCell(String.valueOf(book.getBookId())).setFontSize(10);
+				table.addCell(book.getBookName()).setFontSize(10);
+				table.addCell(String.valueOf(book.getBookPrice())).setFontSize(10);	
+			}
+			table.setHorizontalAlignment(HorizontalAlignment.CENTER);
+			document.add(table);
+			System.out.println("PDF generated successfully at: "+filePath);
+			
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e1) {
+			e1.printStackTrace();
 		}
 	}
 }

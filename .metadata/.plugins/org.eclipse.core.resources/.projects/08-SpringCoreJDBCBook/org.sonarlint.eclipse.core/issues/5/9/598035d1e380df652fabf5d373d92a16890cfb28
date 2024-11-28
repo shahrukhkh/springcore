@@ -1,3 +1,7 @@
 
-e	java:S106E"+Replace this use of System.out by a logger.8Éë®†±2b bb1c3f2ea781263d3a2bb92b06a2061fh
-e	java:S106H"+Replace this use of System.out by a logger.8½ØñÒ²2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106S"+Replace this use of System.out by a logger.8½ØñÒ²2b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106P"+Replace this use of System.out by a logger.8Éë®†±2b bb1c3f2ea781263d3a2bb92b06a2061fh
+y
+java:S1128
+">Remove this unused import 'javax.swing.GroupLayout.Alignment'.8»ÀÖú³2b 44a1a154b64de1001a9b52514080f2cch
+e	java:S106{"+Replace this use of System.out by a logger.8»ÀÖú³2b bb1c3f2ea781263d3a2bb92b06a2061fh

@@ -1,0 +1,6 @@
+my:
+  app:
+    db: oracle
+spring:
+  application:
+    name: 17-SpringBootProfileEx1
