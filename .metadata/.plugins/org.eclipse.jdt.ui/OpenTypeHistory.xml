@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=22-SpringBootDuration-j-8/C:\/Users\/khans\/.m2\/repository\/org\/springframework\/spring-core\/6.1.14\/spring-core-6.1.14.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-core=/=/maven.version=/6.1.14=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.core.env(Environment.class[Environment" modifiers="1537" timestamp="1729152601000"/>
-    <typeInfo handle="=22-SpringBootDuration-j-8/C:\/Users\/khans\/Downloads\/sts-4.21.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.util.stream(Collectors.class[Collectors" modifiers="49" timestamp="1706958302716"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
