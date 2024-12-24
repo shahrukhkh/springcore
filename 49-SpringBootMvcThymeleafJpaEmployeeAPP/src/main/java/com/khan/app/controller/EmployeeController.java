@@ -29,7 +29,7 @@ public class EmployeeController {
 
 	@GetMapping("/register")
 	public String getRegisterEmpForm() {
-		return "/RegisterEmployee";
+		return "RegisterEmployee";
 	}
 
 	@PostMapping("/save")
@@ -38,7 +38,7 @@ public class EmployeeController {
 
 		String msg = "Employee '" + id + "' saved...";
 		model.addAttribute("msg", msg);
-		return "/RegisterEmployee";
+		return "RegisterEmployee";
 	}
 
 //	@GetMapping("/all")
